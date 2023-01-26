@@ -83,7 +83,8 @@ const ProjectSection = () => {
 
 
           <button type="button" class="btn btn-outline-primary fun todisplay" style={{ borderRadius: "0px", border: "2px solid #02aab0", fontSize: "25px", fontWeight: "600" }}  >
-            See Code
+            <a href="https://github.com/aryaupadhyay24/Notebook">See Code</a>
+            
           </button>
         </div>
         <h2 style={{ fontWeight: "600", textAlign: "center", marginTop: "3vh" }}>Qcluster</h2>
@@ -134,8 +135,9 @@ const ProjectSection = () => {
           </button>
 
 
-          <button type="button" class="btn btn-outline-primary fun todisplay" style={{ borderRadius: "0px", border: "2px solid #02aab0", fontSize: "25px", fontWeight: "600" }}  >
-            See Code
+          <button type="button" class="btn btn-outline-primary fun todisplay navbar-brand" style={{ borderRadius: "0px", border: "2px solid #02aab0", fontSize: "25px", fontWeight: "600" }}  >
+            <a href="https://github.com/aryaupadhyay24/Qcluster-1" >See Code</a>
+            
           </button>
         </div>
       </div>

@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div id="thisnavbar">
       <div style={{display:"flex",flexDirection:"row"}}>
-        <div style={{width:"80vw"}}>
+        <div style={{width:"85vw"}}>
 
         </div>
       <div style={{ display: "flex", flexDirection: "row", marginTop: "30px",}}>
