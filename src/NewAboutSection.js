@@ -15,10 +15,10 @@ const NewAboutSection = () => {
               Web Designer & Developer
             </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos aperiam ut placeat, eligendi mollitia praesentium labore animi voluptas temporibus aspernatur esse nisi odit repellat est, et eum rerum rem pariatur vitae accusamus enim laboriosam
+            Currently a student of the PDPM - Indian Institute of Information Technology, Design and Manufacturing, Jabalpur of branch ECE with skills of full stack web development and basic Data Structures and Algorithms in C++.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores animi provident assumenda recusandae quasi repellendus sequi magnam dolore ipsum mollitia!
+              
             </p>
             <div className="personalInfo">
               <div><span>Name:</span> <span>Arya Upadhyay</span></div>

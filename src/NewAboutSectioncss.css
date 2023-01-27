@@ -216,7 +216,7 @@
 
 }
 
-@media(max-width: 868px){
+@media(max-width: 468px){
     .about_container .about_contents{
         
         grid-template-areas: 'imageSect imageSect'
@@ -229,7 +229,7 @@
 
 
 }
-@media(max-width: 668px){
+/* @media(max-width: 668px){
     .personalInfo{
         display: grid;
         grid-template-columns: 1fr;
@@ -239,7 +239,7 @@
 
 
 
-}
+} */
 
 
 
