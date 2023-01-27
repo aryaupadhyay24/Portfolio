@@ -16,8 +16,8 @@ const Footer = () => {
         </div>
         <div style={{marginTop:"42px"}}>
       <div style={{ display: "flex", flexDirection: "row",justifyContent:"center", marginTop: "30px" }}>
-        <a href="/"><i class="fa-brands fa-linkedin social" style={{ fontSize: "29px", marginRight: "48px"}}></i></a>
-        <a href="/"><i class="fa-brands fa-github social" style={{ fontSize: "29px", marginRight: "48px"}}></i></a>
+        <a href="https://www.linkedin.com/in/arya-upadhyay-18783a232"><i class="fa-brands fa-linkedin social" style={{ fontSize: "29px", marginRight: "48px"}}></i></a>
+        <a href="https://github.com/aryaupadhyay24"><i class="fa-brands fa-github social" style={{ fontSize: "29px", marginRight: "48px"}}></i></a>
         {/* <a href="/"><i class="fa-brands fa-youtube social" style={{ fontSize: "29px", marginRight: "48px" }}></i></a> */}
         <a href="Resume_AryaUpadhyay.pdf"  download="Resume_AryaUpadhyay"><i class="fa-solid fa-file social" style={{ fontSize: "29px"}}></i></a>
       </div>
