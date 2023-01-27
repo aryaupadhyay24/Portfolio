@@ -1,9 +1,39 @@
 .thisis:hover{
     background-color: #02aab0;
+
     
 }
 .forcon:hover{
 
     background-color: grey;
+    color: white;
+    box-shadow: 10px 6px 10px 4px rgba(208,234,242,1);
+-webkit-box-shadow: 10px 6px 10px 4px rgba(208,234,242,1);
+-moz-box-shadow: 10px 6px 10px 4px rgba(208,234,242,1);
+}
+.forcon{
+    box-shadow: 10px 6px 5px 4px rgba(179,175,175,0.6);
+-webkit-box-shadow: 10px 6px 5px 4px rgba(179,175,175,0.6);
+-moz-box-shadow: 10px 6px 5px 4px rgba(179,175,175,0.6);
+}
+.thisis{
+    box-shadow: 10px 6px 10px 4px rgba(208,234,242,1);
+-webkit-box-shadow: 10px 6px 10px 4px rgba(208,234,242,1);
+-moz-box-shadow: 10px 6px 10px 4px rgba(208,234,242,1);
+}
+.thisis:hover{
+    box-shadow: 10px 6px 5px 4px rgba(179,175,175,0.6);
+    -webkit-box-shadow: 10px 6px 5px 4px rgba(179,175,175,0.6);
+    -moz-box-shadow: 10px 6px 5px 4px rgba(179,175,175,0.6);
+}
+.todisplay:hover{
+    color: white;
+}
+
+.nameofanchor{
+    color: #02aab0;
+    text-decoration: none;
+}
+.nameofupper:focus{
     color: white;
 }

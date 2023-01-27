@@ -38,9 +38,9 @@ const ProjectSection = () => {
   return (
 
     <div id="thisproject" style={{ marginTop: "6vh" }}>
-      <h1 style={{ fontWeight: "700", textAlign: "center", marginBottom: "6vh", fontSize: "42px" }}>Projects</h1>
+      <h1 style={{ fontWeight: "700", textAlign: "center", marginBottom: "3vh", fontSize: "42px" }}>Projects</h1>
       <div className="container">
-        <h2 style={{ fontWeight: "600", textAlign: "center", marginBottom: "1vh" }}>News Monkey</h2>
+        <h2 style={{ fontWeight: "600", textAlign: "center", marginBottom: "2vh" }}>News Monkey</h2>
         <div className="container" >
           <div className='row'>
 
@@ -69,8 +69,8 @@ const ProjectSection = () => {
             </div>
 
 
-            <div className='col-md-5  thisis container' style={{ borderRadius: "16px" }}>
-              <div className='container' style={{ display: "flex", "justifyContent": "center", "alignItems": "center", marginTop: "4.5vh" }}>
+            <div className='col-md-5  thisis container' style={{ borderRadius: "16px",display: "flex", justifyContent: "center", alignItems: "center" }}>
+              <div className='container' style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "4.5vh" }}>
                 <img style={{ width: "90%", border: "2px solid grey", borderRadius: "8px" }} src="/project_image/newsimage.png" alt="showing image" />
               </div>
             </div>
@@ -83,28 +83,28 @@ const ProjectSection = () => {
 
 
           <button type="button" class="btn btn-outline-primary fun todisplay" style={{ borderRadius: "0px", border: "2px solid #02aab0", fontSize: "25px", fontWeight: "600" }}  >
-            <a href="https://github.com/aryaupadhyay24/Notebook"  style={{textDecoration:"none"}}>See Code</a>
+            <a href="https://github.com/aryaupadhyay24/Notebook"  style={{textDecoration:"none",color:"#02aab0"}}>See Code</a>
             
           </button>
         </div>
         <h2 style={{ fontWeight: "600", textAlign: "center", marginTop: "3vh" }}>Qcluster</h2>
-        <div className="container" style={{ marginTop: "6vh", marginBottom: "6vh" }}>
+        <div className="container" style={{ marginTop: "1vh", marginBottom: "3vh"}}>
           <div className='row'>
 
-            <div className='col-md-4 container forcon' onMouseEnter={handleEnter2} onMouseLeave={handleLeave2} style={{ borderRadius: "12px" }}>
-              <div style={{ display: "flex", flexWrap: "wrap", paddingLeft: "4vh", paddingRight: "4vh", paddingTop: "3vh" }}>
-                <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px" }} className="box2">React</div>
+            <div className='col-md-4 container forcon' onMouseEnter={handleEnter2} onMouseLeave={handleLeave2} style={{ borderRadius: "12px",fontWeight:"500" ,fontSize:"16px"}}>
+              <div style={{ display: "flex", flexWrap: "wrap", paddingLeft: "4vh", paddingRight: "4vh", paddingTop: "3vh" ,fontWeight:"600"}}>
+                <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px",padding:"3px" }} className="box2">React</div>
                 {/* <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px" }} className="box2">Context</div> */}
                 {/* <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px" }} className="box2">JSX</div> */}
-                <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px" }} className="box2">CSS</div>
+                <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px" ,padding:"3px" }} className="box2">CSS</div>
                 {/* <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px" }} className="box2">Google font</div> */}
-                <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px" }} className="box2">Router</div>
-                <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px" }} className="box2">Nodejs</div>
-                <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px" }} className="box2">Express js</div>
+                <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px"  ,padding:"3px"}} className="box2">Router</div>
+                <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px" ,padding:"3px" }} className="box2">Nodejs</div>
+                <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px" ,padding:"3px" }} className="box2">Express js</div>
                 {/* <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px" }} className="box2">Vanilla js</div> */}
-                <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px" }} className="box2">Bootstarp</div>
-                <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px" }} className="box2">Mongodb</div>
-                <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px" }} className="box2">javascript</div>
+                <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px" ,padding:"3px" }} className="box2">Bootstarp</div>
+                <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px" ,padding:"3px" }} className="box2">Mongodb</div>
+                <div style={{ border: "2px solid black", borderRadius: "8px", backgroundColor: "grey", marginRight: "6px", marginTop: "4px" ,padding:"3px" }} className="box2">javascript</div>
 
               </div>
               <div>
@@ -120,8 +120,8 @@ const ProjectSection = () => {
             </div>
 
 
-            <div className='col-md-5  thisis container' style={{ borderRadius: "16px", paddingBottom: "0px", marginTop: "2vh" }}>
-              <div className='container' style={{ display: "flex", "justifyContent": "center", "alignItems": "center", paddingBottom: "0px", marginBottom: "0px" }}>
+            <div className='col-md-5  thisis container' style={{ borderRadius: "16px", paddingBottom: "0px",display: "flex", justifyContent: "center", alignItems: "center" }}>
+              <div className='container' style={{ display: "flex", justifyContent: "center", alignItems: "center", paddingBottom: "0px", marginBottom: "0px" }}>
                 <img style={{ width: "90%", border: "2px solid grey", borderRadius: "8px" }} src="/project_image/Qcluster_image.png" alt="showing image" />
               </div>
             </div>
@@ -135,8 +135,8 @@ const ProjectSection = () => {
           </button>
 
 
-          <button type="button" class="btn btn-outline-primary fun todisplay navbar-brand" style={{ borderRadius: "0px", border: "2px solid #02aab0", fontSize: "25px", fontWeight: "600" }}  >
-            <a href="https://github.com/aryaupadhyay24/Qcluster-1" style={{textDecoration:"none" ,fontSize: "25px"}} >See Code</a>
+          <button type="button" class="btn btn-outline-primary fun todisplay nameofupper" style={{ borderRadius: "0px", border: "2px solid #02aab0", fontSize: "25px", fontWeight: "600" }}  >
+            <a href="https://github.com/aryaupadhyay24/Notebook" className='nameofanchor'  style={{textDecoration:"none"}}>See Code</a>
             
           </button>
         </div>
