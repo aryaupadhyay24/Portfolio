@@ -37,3 +37,6 @@
 .nameofupper:focus{
     color: white;
 }
+.nameofanchor:hover{
+    color: white;
+}
