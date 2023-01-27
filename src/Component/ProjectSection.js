@@ -78,12 +78,12 @@ const ProjectSection = () => {
         </div>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", fontSize: "16px", marginTop: "3%" }}>
           <button type="button" class="btn btn-outline-primary fun  todisplay" style={{ borderRadius: "0px", border: "2px solid #02aab0", fontSize: "25px", fontWeight: "600" }}  >
-            See Live
+           <a > See Live</a>
           </button>
 
 
           <button type="button" class="btn btn-outline-primary fun todisplay" style={{ borderRadius: "0px", border: "2px solid #02aab0", fontSize: "25px", fontWeight: "600" }}  >
-            <a href="https://github.com/aryaupadhyay24/Notebook">See Code</a>
+            <a href="https://github.com/aryaupadhyay24/Notebook"  style={{textDecoration:"none"}}>See Code</a>
             
           </button>
         </div>
@@ -131,12 +131,12 @@ const ProjectSection = () => {
         </div>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", fontSize: "16px", marginBottom: "5%" }}>
           <button type="button" class="btn btn-outline-primary fun  todisplay" style={{ borderRadius: "0px", border: "2px solid #02aab0", fontSize: "25px", fontWeight: "600" }}  >
-            See Live
+          <a > See Live</a>
           </button>
 
 
           <button type="button" class="btn btn-outline-primary fun todisplay navbar-brand" style={{ borderRadius: "0px", border: "2px solid #02aab0", fontSize: "25px", fontWeight: "600" }}  >
-            <a href="https://github.com/aryaupadhyay24/Qcluster-1" >See Code</a>
+            <a href="https://github.com/aryaupadhyay24/Qcluster-1" style={{textDecoration:"none" ,fontSize: "25px"}} >See Code</a>
             
           </button>
         </div>

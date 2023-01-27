@@ -1,7 +1,7 @@
 import React from 'react'
 // there is a react reveal animation which provide various animation effect
 import Fade from 'react-reveal/Fade';
-import LightSpeed from 'react-reveal/LightSpeed';
+// import LightSpeed from 'react-reveal/LightSpeed';
 import Button from './Button';
 const Description = () => {
   return (
