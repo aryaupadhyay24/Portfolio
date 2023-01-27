@@ -27,11 +27,13 @@ const NewAboutSection = () => {
               <div><span>Address:</span> <span>IIITDM Jabalpur</span></div>
             </div>
             <div className="button">
-              <button>Download CV</button>
+              <button> 
+               <a href="Resume_AryaUpadhyay.pdf" style={{color:"#02aab0"}} download="Resume_AryaUpadhyay">Download CV </a> </button>
+               
             </div>
           </section>
 
-          <section className="skillSection">
+          {/* <section className="skillSection">
             <div className="skill">
               <div className="subject">Hard Work</div>
               <div className="progress_bar">
@@ -59,7 +61,7 @@ const NewAboutSection = () => {
                 <div className="progress_line" value="85%" style={{ maxWidth: "85%" }}></div>
               </div>
             </div>
-          </section>
+          </section> */}
         </div>
       </div>
     </div>

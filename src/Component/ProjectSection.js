@@ -82,8 +82,8 @@ const ProjectSection = () => {
           </button>
 
 
-          <button type="button" class="btn btn-outline-primary fun todisplay" style={{ borderRadius: "0px", border: "2px solid #02aab0", fontSize: "25px", fontWeight: "600" }}  >
-            <a href="https://github.com/aryaupadhyay24/Notebook"  style={{textDecoration:"none",color:"#02aab0"}}>See Code</a>
+          <button type="button" class="btn btn-outline-primary fun todisplay nameofupper" style={{ borderRadius: "0px", border: "2px solid #02aab0", fontSize: "25px", fontWeight: "600" }}  >
+            <a href="https://github.com/aryaupadhyay24/Notebook" className='nameofanchor'  style={{textDecoration:"none"}}>See Code</a>
             
           </button>
         </div>
@@ -110,9 +110,9 @@ const ProjectSection = () => {
               <div>
                 <div style={{ flexWrap: "wrap", paddingLeft: "4vh", paddingRight: "4vh" }} >
                   {/* description */}
-                  <p style={{ lineHeight: "18px", margin: "0px" }}> <strong>Qcluster</strong> - online community for developers to learn, share their programming knowledge, and build their careers</p>
-                  <p style={{ lineHeight: "18px", margin: "0px" }}>-- a secured authentication process for user</p>
-                  <p style={{ lineHeight: "18px", margin: "0px" }}>-- interactive, attractive and responsive user interface with different filter options</p>
+                  <p style={{ lineHeight: "18px", margin: "0px" ,fontWeight:"400"}}> <strong>Qcluster</strong> - online community for developers to learn, share their programming knowledge, and build their careers</p>
+                  <p style={{ lineHeight: "18px", margin: "0px" ,fontWeight:"400"}}>-- a secured authentication process for user</p>
+                  <p style={{ lineHeight: "18px", margin: "0px" ,fontWeight:"400"}}>-- interactive, attractive and responsive user interface with different filter options</p>
                 </div>
 
               </div>

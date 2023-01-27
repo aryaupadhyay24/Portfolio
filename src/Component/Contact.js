@@ -33,7 +33,7 @@ const Contact = () => {
         <div >
         <textarea name="message" id="message" cols="30" rows="10" placeholder='Message' style={{width:"100%",margin:"auto",marginTop:"8px",border:"1px solid black"}}></textarea>
         </div>
-        <div style={{marginLeft:"46%"}}>
+        <div style={{display:'flex',justifyContent:"center",alignItems:"center"}}>
         <input type="submit" class="btn btn-outline-primary fun" style={{borderRadius:"0px",border:"2px solid #02aab0",fontSize:"20px",fontWeight:"600" ,marginTop:"12px" } } value="SEND"
         />
         </div>
