@@ -89,7 +89,7 @@ const ProjectSection = () => {
 
 
           <button type="button" class="btn btn-outline-primary fun todisplay nameofupper" style={{ borderRadius: "0px", border: "2px solid #02aab0", fontSize: "25px", fontWeight: "600" }}  >
-            <a href="https://github.com/aryaupadhyay24/Notebook" className='nameofanchor'  style={{textDecoration:"none"}}>See Code</a>
+            <a href="https://github.com/aryaupadhyay24/Qcluster_1" className='nameofanchor'  style={{textDecoration:"none"}}>See Code</a>
             
           </button>
         </div>
