@@ -28,7 +28,7 @@ const NewAboutSection = () => {
             </div>
             <div className="button">
               <button> 
-               <a href="Resume_AryaUpadhyay.pdf" style={{color:"#02aab0"}} download="Resume_AryaUpadhyay">Download CV </a> </button>
+               <a href="Resume_AryaUpadhyay.pdf" style={{color:"#02aab0"}} download="Resume_AryaUpadhyay">Resume</a> </button>
                
             </div>
           </section>
