@@ -6,8 +6,8 @@ import Button from './Button';
 const Description = () => {
   return (
     <Fade left cascade>
-    <div style={{marginLeft:"10vw",marginTop:"30vh"}} >
-      <h1 style={{fontSize:"4rem",fontWeight:"750"}}>
+    <div style={{marginLeft:"10vw",marginTop:"30vh"}} className="pake" >
+      <h1 style={{fontWeight:"750"}}>
         <p style={{marginBottom:"-3px"}}>
           Hi, I'm <span style={{color:"#02aab0",fontWeight:"750"}}> Arya.</span>
         </p>

@@ -2,7 +2,7 @@ import React from 'react'
 import './skillsectioncss.css';
 const Skillsection = () => {
   return (
-    <div id="thisskill" style={{backgroundColor:"#000000d6",marginTop:"38vh"}}>
+    <div id="thisskill" style={{backgroundColor:"#000000d6"}} className="marginsetting">
         <div style={{marginBottom:"8vh"}}>
         <h2 style={{color:"white",textAlign:"center",fontWeight:"600",fontSize:"40px",marginBottom:"8vh"}}>
             SKILLS

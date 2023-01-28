@@ -66,3 +66,28 @@ body{
     outline: none;
     box-shadow: none;
   }
+
+@media(max-width: 668px) {
+    .pake p{
+        font-size: 42px;
+       
+    }
+
+
+}
+
+.pake h1{
+    font-size: 65px;
+}
+
+.marginsetting{
+    margin-top: 38vh;
+}
+@media(max-width: 668px) {
+    .marginsetting{
+        margin-top: 18vh;
+       
+    }
+
+
+}
